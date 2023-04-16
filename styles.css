@@ -1,0 +1,59 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1280px;
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.img-boxes {
+  width: 520px;
+  height: 190px;
+  margin: 110px 380px 10px;
+}
+
+.bigtext {
+  font-size: 120px;
+  width: 420px;
+  padding: auto 10px auto;
+  text-align: center;
+  margin: 0px 430px 22px;
+  cursor: pointer;
+}
+
+.bigtext:hover~.text {
+  opacity: 1;
+}
+
+.text {
+  width: 420px;
+  font-size: 17px;
+  text-align: center;
+  margin: 0px 430px 258px;
+  opacity: 0;
+}
+
+.footer-text {
+  width: 420px;
+  text-align: center;
+  margin: 0px 430px 30px;
+}
+
+a {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
